@@ -1,0 +1,68 @@
+04-19 23:18:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 299:Plugin executed on: 'win32'
+04-19 23:18:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 300:Plugin executed with python version: '3.9.10 (main, Feb 11 2022, 04:18:11) [MSC v.1928 64 bit (AMD64)]'
+04-19 23:18:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 301:KiCad build version: (6.0.2)
+04-19 23:18:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 302:Plugin version: 1.0.2
+04-19 23:18:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 303:Frame repr: <wx._core.Frame object at 0x000001EC1A09A940>
+04-19 23:18:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 322:Preparing replicator with U701 as a reference
+04-19 23:18:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 99:getting a list of all footprints on board
+04-19 23:18:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 349:source anchor footprint is 'U701'
+Located on: ['Motor Driver 0']
+With filenames: ['motor_b.kicad_sch']
+With sheet_id:['Motor Driver 0']
+04-19 23:18:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 356:Corresponding footprints are 
+[('U701', ['Motor Driver 0']), ('U801', ['Motor Driver 1'])]
+04-19 23:18:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 368:Showing dialog
+04-19 23:18:54 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 373:Toolbar position: wx.Point(1883, 80)
+04-19 23:18:54 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 379:Dialog position: wx.Point(1519, 80)
+04-19 23:18:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:constructing a list of sheets suitable for replication on level:'Motor Driver 0', file:'motor_b.kicad_sch'
+04-19 23:18:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 356:suitable sheets are:[['Motor Driver 1']]
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:constructing a list of sheets suitable for replication on level:'Motor Driver 0', file:'motor_b.kicad_sch'
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 356:suitable sheets are:[['Motor Driver 1']]
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 143:Replicating layout
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 134:Starting replication of sheets: [['Motor Driver 1']]
+on level: ['Motor Driver 0']
+with tracks=True, zone=True, text=True, containing=False, remove=True, locked=False, by_group=False
+04-19 23:19:00 root 239:updating GUI message: 'Preparing for replication'
+04-19 23:19:00 root 244:updating GUI with: 0
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 203:Getting the list of source footprints
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 218:Getting the list of all the remaining footprints
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 223:Getting nets local to source footprints
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 227:Getting source bounding box
+04-19 23:19:00 root 244:updating GUI with: 37
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 231:Getting source tracks
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 241:Getting source zones
+04-19 23:19:00 root 244:updating GUI with: 62
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 250:Getting source text items
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 259:Getting source drawing items
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 165:Removing tracks and zones, before footprint placement
+04-19 23:19:00 root 239:updating GUI message: 'Removing zones and tracks'
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1035:Remove bounding box top:69808928, bottom:96956250, Left:81882738, Right:121726786
+04-19 23:19:00 root 239:updating GUI message: 'Replicating footprints'
+04-19 23:19:00 root 244:updating GUI with: 0
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 652:Replicating footprints
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 658:Replicating footprints on sheet ['Motor Driver 1']
+04-19 23:19:00 root 244:updating GUI with: 40
+04-19 23:19:00 root 244:updating GUI with: 100
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 173:Removing tracks and zones, after footprint placement
+04-19 23:19:00 root 239:updating GUI message: 'Removing zones and tracks'
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1035:Remove bounding box top:69808928, bottom:96956250, Left:81882738, Right:121726786
+04-19 23:19:00 root 239:updating GUI message: 'Replicating tracks'
+04-19 23:19:00 root 244:updating GUI with: 0
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 818:Replicating tracks
+04-19 23:19:00 root 244:updating GUI with: 0
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 824:Replicating tracks on sheet ['Motor Driver 1']
+04-19 23:19:00 root 244:updating GUI with: 65
+04-19 23:19:00 root 239:updating GUI message: 'Replicating zones'
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 876:Replicating zones
+04-19 23:19:00 com_github_MitjaNemec_ReplicateLayout.replicate_layout 883:Replicating zones on sheet ['Motor Driver 1']
+04-19 23:19:00 root 244:updating GUI with: 66
+04-19 23:19:01 root 244:updating GUI with: 100
+04-19 23:19:01 root 239:updating GUI message: 'Replicating text'
+04-19 23:19:01 root 244:updating GUI with: 0
+04-19 23:19:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 946:Replicating text
+04-19 23:19:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 953:Replicating text on sheet ['Motor Driver 1']
+04-19 23:19:01 root 239:updating GUI message: 'Replicating drawings'
+04-19 23:19:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Replicating drawings
+04-19 23:19:01 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating drawings on sheet ['Motor Driver 1']
+04-19 23:19:01 root 239:updating GUI message: 'Removing duplicates'
+04-19 23:19:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 167:Replication complete
